@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="robot" id="robot"></div>
+    <div class = "container">
+        <h1 class = "heading-name"><em><strong>YOUR ROBO</em></strong></h1>
+    </div>
+    <div class = "card"><h2 class = "card-title">ROBO NAME 🤖<input type="text" placeholder="Enter ROBO name"></h2>
+    </div>
+    <div class = "stats">
+
+        <p id="happiness-message"></p>
+            <p class="message"><em><strong>Happiness 😊</strong></em></p>
+            <button onclick="increaseHappiness()">+</button>
+            <div class="progress-bars">
+                    <div class="progress" id="happiness-progress"></div>
+                    <div class="fill" id="happinessbar"></div>
+        </p>
+
+
+        <p id="energy-message"></p>
+            <p class="message"><em><strong>Energy ⚡</strong></em></p>
+            <button onclick="increaseEnergy()">+</button>
+                <div class="progress-bars">
+                    <div class="progress" id="energy-progress"></div>
+                    <div class="fill" id="energybar"></div>
+        </p>
+
+
+        <p id="hunger-message"></p>
+            <p class="message"><em><strong>Hunger 🍽️</strong></em></p>
+            <button onclick="increaseHunger()">+</button>
+                <div class="progress-bars">
+                    <div class="progress" id="hunger-progress"></div>
+                    <div class="fill" id="hungerbar"></div>
+                </div>
+            </div>
+        </p>
+    </div>
+
+
+
+    </div>
+<script src="script.js"></script>
+</body>
